@@ -30,5 +30,7 @@
   "typings": "typescript/CameraPreview.d.ts",
   "dependencies": {
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "xml2js": "^0.6.2"
+  }
 }

@@ -44,9 +44,7 @@
       <activity android:name="com.cordovaplugincamerapreview.CameraActivity" android:screenOrientation="portrait" android:theme="@style/CameraPreviewTheme" tools:ignore="Instantiatable" />
     </config-file>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
-      <manifest xmlns:tools="http://schemas.android.com/tools" />
-    </edit-config>
+    <hook type="after_prepare" src="hooks/android/manifest-hook.js"/>
   </platform>
 
   <platform name="ios">
